@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import Component from './components/Component'
 
 
 function App() {
@@ -6,11 +7,16 @@ function App() {
 
   
 
+ 
+  
+
 
   return (
     <div className="App">
       <h1>{number}</h1>
-      <button onClick={() => setNumber(number+1)}>Ajouter</button>
+      
+      <Component fonction= {() => setNumber(number + 4)}>
+      </Component>
 
 
 
