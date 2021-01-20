@@ -4,7 +4,7 @@ function Component(props) {
     return (
         <div>
             <h1>yo</h1>
-            <button onClick={props.fonction}>Ajouter</button>
+            <button onClick={() => props.fonction(4)}>Ajouter</button>
             
         </div>
     )

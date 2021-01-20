@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <h1>{number}</h1>
       
-      <Component fonction= {() => setNumber(number + 4)}>
+      <Component fonction= {(x) => setNumber(number + x)}>
       </Component>
 
 
